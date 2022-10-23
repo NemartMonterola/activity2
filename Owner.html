@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+    <div class="w3-container w3-black">
+      <h1>Illegal Shop</h1> 
+      <p>Enjoy your shopping!!!</p>
+      </div>
+    
+      <div class="w3-bar w3-dark-grey">
+
+       
+        <a href="Owner.html" class="w3-bar-item w3-button w3-mobile w3-green" style="width:33%">Owner</a>
+
+      </div>
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+        <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+        <a href="home.html" class="w3-bar-item w3-button w3-mobile" style="width:33%">Home</a>    
+       
+        <a href="Owner.html" class="w3-bar-item w3-button w3-mobile" style="width:33%">Owner</a>
+      </div>
+      
+      
+      
+      <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+        
+        <div class="w3-container">
+          <h1></h1>
+        </div>
+      </div>
+      
+      <div class="w3-container">
+        <div class="w3-card">
+          <img src="ownpic.jpg" style="width: 300px">
+
+      <p>Jarred Martuña and Stacy Robles Cloribel</p>
+      <p>https://www.facebook.com/igotcolours.tiedye</p>
+      </div>
+           
+      <script>
+      function openLeftMenu() {
+        document.getElementById("leftMenu").style.display = "block";
+      }
+      
+      function closeLeftMenu() {
+        document.getElementById("leftMenu").style.display = "none";
+      }
+      
+      
+      </script>
+</body>
+</html>

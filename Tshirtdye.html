@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+    <div class="w3-container w3-black">
+     
+        <h1>𝚒𝚐𝚘𝚝𝚌𝚘𝚕𝚘𝚞𝚛𝚜.𝚝𝚒𝚎𝚍𝚢𝚎 </h1>
+        <p>Enjoy your shopping!!!</p>
+      </div>
+    
+    </div>
+    <div class="w3-teal">
+      <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+      
+      <div class="w3-container">
+        <h1></h1>
+      </div>
+    </div>
+    <div class="w3-container w3-black">
+        
+      
+        
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myFunction()">
+          Items <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+          <a href="Tshirtdye.html" class="w3-bar-item w3-button">TshirtDye</a>
+          <a href="capdye.html" class="w3-bar-item w3-button">CapDye</a>
+        
+        </div>
+      </div>
+    
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+       
+  <script>
+  function openLeftMenu() {
+    document.getElementById("leftMenu").style.display = "block";
+  }
+  
+  function closeLeftMenu() {
+    document.getElementById("leftMenu").style.display = "none";
+  }
+  
+  
+  </script>
+ 
+ 
+  
+  
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+      <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+      <a href="home.html" class="w3-bar-item w3-button w3-mobile" style="width:33%">Home</a>    
+     
+      <a href="Owner.html" class="w3-bar-item w3-button w3-mobile" style="width:40%">Owner</a>
+    </div>
+    
+    
+    
+ 
+     
+      
+      <div class="w3-container w3-teal">
+        <h1>T-shirt Dye</h1>
+      </div>
+      
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="1.jpg" style="width:50%">
+            <div class="w3-container">
+              <h5>5 Terre</h5>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-margin-top">
+          <div class="w3-card">
+            <img src="2.jpg" style="width:50%">
+            <div class="w3-container">
+              <h5>Monterosso</h5>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third w3-margin-top">
+          <div class="w3-card">
+            <img src="3.jpg" style="width:50%">
+            <div class="w3-container">
+              <h5>Vernazza</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="4.jpg" style="width:50%">
+            <div class="w3-container">
+              <h5>Manarola</h5>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="5.jpg" style="width:50%">
+            <div class="w3-container">
+              <h5>Corniglia</h5>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="6.jpg" style="width:50%">
+            <div class="w3-container">
+              <h5>Riomaggiore</h5>
+            </div>
+          </div>
+        </div>
+      </div>            
+  </div>     
+    <script>
+    function openLeftMenu() {
+      document.getElementById("leftMenu").style.display = "block";
+    }
+    
+    function closeLeftMenu() {
+      document.getElementById("leftMenu").style.display = "none";
+    }
+    
+    
+    </script>
+   
+   
+    </div>
+     
+      
+</body>
+</html>
